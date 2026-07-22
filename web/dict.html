@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>词典查看 · GitHub Desktop 汉化</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg" aria-hidden="true"></div>
+    <main class="shell shell-wide">
+      <nav class="site-nav">
+        <a href="./">汉化</a>
+        <a href="./dict.html" aria-current="page">词典</a>
+        <a href="./dict-edit.html">编辑</a>
+        <a href="./help.html">帮助</a>
+      </nav>
+
+      <header class="brand brand-compact">
+        <p class="eyebrow">Dictionary</p>
+        <h1>词典</h1>
+        <p class="lede">只读浏览当前平台词典，支持搜索与按目标文件筛选。</p>
+      </header>
+
+      <section class="stage">
+        <div class="dict-toolbar">
+          <label class="field input-field">
+            <select id="platform" aria-label="选择平台词典"></select>
+            <span>平台</span>
+          </label>
+          <label class="field input-field grow">
+            <input id="q" type="search" placeholder="英文 / 中文…" autocomplete="off" />
+            <span>搜索</span>
+          </label>
+          <label class="field input-field">
+            <select id="target">
+              <option value="">全部</option>
+              <option value="main.js">main.js</option>
+              <option value="renderer.js">renderer.js</option>
+            </select>
+            <span>目标</span>
+          </label>
+          <p class="dict-count" id="count">加载中…</p>
+        </div>
+
+        <div class="dict-table-wrap">
+          <table class="dict-table">
+            <thead>
+              <tr>
+                <th class="col-i">#</th>
+                <th>英文</th>
+                <th>中文</th>
+                <th class="col-meta">分类</th>
+                <th class="col-meta">目标</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <p class="status" id="status"></p>
+      </section>
+    </main>
+    <script type="module" src="./dict-view.js"></script>
+  </body>
+</html>

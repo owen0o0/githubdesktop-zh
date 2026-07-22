@@ -1,0 +1,11 @@
+{
+  "name": "github-desktop-zh",
+  "version": "1.1.0",
+  "description": "GitHub Desktop 网页汉化工具",
+  "private": true,
+  "scripts": {
+    "web": "node scripts/web-server.cjs",
+    "start": "node scripts/web-server.cjs"
+  },
+  "license": "MIT"
+}

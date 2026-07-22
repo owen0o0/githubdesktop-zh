@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Desktop 汉化</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg" aria-hidden="true">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="grid-mask"></div>
+    </div>
+
+    <main class="shell">
+      <nav class="site-nav">
+        <a href="./" aria-current="page">汉化</a>
+        <a href="./dict.html">词典</a>
+        <a href="./dict-edit.html">编辑</a>
+        <a href="./help.html">帮助</a>
+      </nav>
+
+      <header class="brand">
+        <p class="eyebrow">GitHub Desktop</p>
+        <h1>汉化</h1>
+        <p class="lede">
+          本地上传 <code>main.js</code> 与 <code>renderer.js</code>，瞬间替换，立刻下载。
+          文件只在你的浏览器里处理。
+        </p>
+      </header>
+
+      <section class="stage" aria-label="汉化工作台">
+        <div class="uploads">
+          <label class="slot" id="drop-main" data-name="main.js">
+            <span class="slot-tag">01</span>
+            <span class="slot-title">main.js</span>
+            <span class="slot-hint" id="meta-main">拖入或点击选择</span>
+            <input id="file-main" type="file" accept=".js,text/javascript" />
+          </label>
+          <label class="slot" id="drop-renderer" data-name="renderer.js">
+            <span class="slot-tag">02</span>
+            <span class="slot-title">renderer.js</span>
+            <span class="slot-hint" id="meta-renderer">通常约 3MB</span>
+            <input id="file-renderer" type="file" accept=".js,text/javascript" />
+          </label>
+        </div>
+
+        <div class="bar bar-top">
+          <label class="field platform-field input-field">
+            <select id="platform" aria-label="选择平台词典"></select>
+            <span>平台</span>
+          </label>
+          <p class="platform-hint" id="platform-hint"></p>
+        </div>
+
+        <div class="bar">
+          <button class="btn btn-primary" id="btn-run" type="button" disabled>
+            <span>开始汉化</span>
+          </button>
+          <div class="btn-group">
+            <button class="btn btn-ghost" id="btn-dl-main" type="button" disabled>main.js</button>
+            <button class="btn btn-ghost" id="btn-dl-renderer" type="button" disabled>
+              renderer.js
+            </button>
+            <button class="btn btn-ghost" id="btn-dl-both" type="button" disabled>下载 ZIP</button>
+          </div>
+        </div>
+
+        <div class="progress" id="progress" hidden>
+          <div class="progress-track">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+        </div>
+
+        <p class="status" id="status">准备就绪。先放入两个原版文件。</p>
+
+        <div class="metrics" id="stats" hidden>
+          <article>
+            <h3>main.js</h3>
+            <p id="stat-main">—</p>
+          </article>
+          <article>
+            <h3>renderer.js</h3>
+            <p id="stat-renderer">—</p>
+          </article>
+        </div>
+      </section>
+
+      <footer class="foot">
+        <p>
+          各平台路径与收尾步骤见
+          <a href="./help.html">帮助</a>
+          。
+        </p>
+      </footer>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
