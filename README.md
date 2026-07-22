@@ -64,8 +64,6 @@ Squirrel 更新后会出现新的 `app-x.y.z` 目录，需对新区再汉化一�
 /usr/share/github-desktop/resources/app/
 ```
 
-系统目录覆盖通常需要 `sudo`。Linux 版 Desktop 可参考：[shiftkey/desktop](https://github.com/shiftkey/desktop)。
-
 ### 词典
 
 | 平台 | 文件 |
