@@ -168,7 +168,6 @@ Always available in the toolbar for local repositories or>*.*<使用快捷键>*.
 "a commit">*.*<"1项提交">*.*<待分组>*.*<renderer.js
 "commits",>*.*<"多项提交",>*.*<待分组>*.*<renderer.js
 " on",>*.*<" 在",>*.*<待分组>*.*<renderer.js
-"the remote">*.*<"远程">*.*<待分组>*.*<renderer.js
 " that">*.*<" 那">*.*<待分组>*.*<renderer.js
 "does not">*.*<"不是">*.*<待分组>*.*<renderer.js
 "do not">*.*<"不要">*.*<待分组>*.*<renderer.js
@@ -382,6 +381,8 @@ Open with Default Program>*.*<使用默认程序打开>*.*<待分组>*.*<rendere
 "Recycle Bin",>*.*<"回收站",>*.*<待分组>*.*<renderer.js
 View your stashed changes>*.*<查看暂存更改>*.*<待分组>*.*<renderer.js
 "You have ">*.*<"你有 ">*.*<待分组>*.*<renderer.js
+`You have ${l.join(" and ")} waiting to be pushed to ${o?"GitHub":"the remote"}.`>*.*<`您有 ${l.join(" and ")} 等待推送到 ${o?"GitHub":"远程"}。`>*.*<待分组>*.*<renderer.js
+"the remote">*.*<"远程">*.*<待分组>*.*<renderer.js
 "change":"changes">*.*<"项更改":"项更改">*.*<待分组>*.*<renderer.js
  in progress that you have not yet committed.>*.*<在你的程序中，您尚未提交。>*.*<待分组>*.*<renderer.js
 When a stash exists, access it at the bottom of the Changes tab to the left.>*.*<当暂存更改存在时，可以在左侧的“更改”选项卡的底部查看这些暂存的更改。>*.*<待分组>*.*<renderer.js
@@ -401,7 +402,7 @@ Amend Commit…>*.*<修改提交>*.*<待分组>*.*<renderer.js
 Reset to commit…>*.*<重置提交>*.*<待分组>*.*<renderer.js
 "Revert Changes in Commit">*.*<"在提交中还原更改">*.*<待分组>*.*<renderer.js
 Create Branch from Commit>*.*<根据提交创建分支>*.*<待分组>*.*<renderer.js
-Create Tag…>*.*<创建标签>*.*<待分组>*.*<renderer.js
+Create Tag…>*.*<创建 Tag…>*.*<待分组>*.*<renderer.js
 Cherry-pick Commit…>*.*<筛选提交>*.*<待分组>*.*<renderer.js
 "Copy SHA">*.*<"复制SHA">*.*<待分组>*.*<renderer.js
 "View on GitHub">*.*<"在Github上查看">*.*<待分组>*.*<renderer.js
@@ -555,7 +556,7 @@ title:"Start tutorial",>*.*<title:"开始教程",>*.*<待分组>*.*<renderer.js
 title:"Push Rejected",>*.*<title:"推送被拒绝",>*.*<待分组>*.*<renderer.js
 title:"Re-authorization Required",>*.*<title:"需要重新授权",>*.*<待分组>*.*<renderer.js
 title:"Do you want to fork this repository?",>*.*<title:"是否要 fork 此存储库？",>*.*<待分组>*.*<renderer.js
-title:"Create a Tag",>*.*<title:"创建标签",>*.*<待分组>*.*<renderer.js
+title:"Create a Tag",>*.*<title:"创建 Tag",>*.*<待分组>*.*<renderer.js
 title:"Delete Tag",>*.*<title:"删除标签",>*.*<待分组>*.*<renderer.js
 title:"To contribute to the parent project",>*.*<title:"为了为父项目做贡献",>*.*<待分组>*.*<renderer.js
 title:"For my own purposes",>*.*<title:"出于自己的目的",>*.*<待分组>*.*<renderer.js
@@ -608,10 +609,10 @@ label:"Undo Commit…",>*.*<label:"撤销提交…",>*.*<待分组>*.*<renderer.
 label:"Reset to Commit…",>*.*<label:"重置到提交…",>*.*<待分组>*.*<renderer.js
 label:"Revert Changes in Commit",>*.*<label:"还原提交中的更改",>*.*<待分组>*.*<renderer.js
 label:"Create Branch from Commit",>*.*<label:"从提交创建分支",>*.*<待分组>*.*<renderer.js
-label:"Create Tag…",>*.*<label:"创建标签…",>*.*<待分组>*.*<renderer.js
+label:"Create Tag…",>*.*<label:"创建 Tag…",>*.*<待分组>*.*<renderer.js
 label:"Cherry-pick Commit…",>*.*<label:"精选提交…",>*.*<待分组>*.*<renderer.js
 label:"Copy SHA",>*.*<label:"复制 SHA",>*.*<待分组>*.*<renderer.js
-label:"Delete tag…",>*.*<label:"删除标签…",>*.*<待分组>*.*<renderer.js
+label:"Delete tag…",>*.*<label:"删除 Tag…",>*.*<待分组>*.*<renderer.js
 label:"File does not exist on Disk",>*.*<label:"文件不存在于磁盘上",>*.*<待分组>*.*<renderer.js
 label:"Rename…",>*.*<label:"重命名…",>*.*<待分组>*.*<renderer.js
 label:"Copy Branch Name",>*.*<label:"复制分支名称",>*.*<待分组>*.*<renderer.js
@@ -697,7 +698,7 @@ okButtonText:"Discard">*.*<okButtonText:"放弃">*.*<待分组>*.*<renderer.js
 okButtonText:"Continue">*.*<okButtonText:"继续">*.*<待分组>*.*<renderer.js
 okButtonText:"Continue in browser">*.*<okButtonText:"在浏览器中继续">*.*<待分组>*.*<renderer.js
 okButtonText:"Fork this repository",>*.*<okButtonText:"Fork 该存储库",>*.*<待分组>*.*<renderer.js
-okButtonText:"Create tag",>*.*<okButtonText:"创建标签",>*.*<待分组>*.*<renderer.js
+okButtonText:"Create tag",>*.*<okButtonText:"创建 Tag",>*.*<待分组>*.*<renderer.js
 okButtonText:"Stash changes and continue",>*.*<okButtonText:"保存更改并继续",>*.*<待分组>*.*<renderer.js
 okButtonText:"Move and Restart",>*.*<okButtonText:"移动并重启",>*.*<待分组>*.*<renderer.js
 cancelButtonText:"Not Now",>*.*<cancelButtonText:"暂不",>*.*<待分组>*.*<renderer.js
@@ -813,6 +814,10 @@ label:"Ignore File (Add to .gitignore)",>*.*<label:"忽略此文件（添加到.
 " Resolve with Copilot">*.*<" 使用 Copilot 解决">*.*<补全-zh-CN>*.*<renderer.js
 "your tool of choice, or close to resolve manually.">*.*<"您选择的工具，或关闭手动解决。">*.*<补全-zh-CN>*.*<renderer.js
 "Git Credential Manager">*.*<"Git 凭据管理器。">*.*<补全-zh-CN>*.*<renderer.js
+Sorry, I can't find any changed files matching the following filters: ${n}>*.*<抱歉，我找不到符合以下筛选条件的已更改文件：${n}>*.*<补全-zh-CN>*.*<renderer.js
+" changed files?">*.*<" 更改的文件？">*.*<补全-zh-CN>*.*<renderer.js
+" menu or">*.*<"菜单，或">*.*<补全-zh-CN>*.*<renderer.js
+"Adjust the filters to see all ">*.*<"调整筛选词以查看所有 ">*.*<补全-zh-CN>*.*<renderer.js
 ". You may want to change it due to different workflows, or because your integrations still require the historical default branch name of ">*.*<"。你可能希望根据不同的工作流更改它，或因为你的集成仍需要历史默认分支名 ">*.*<补全-zh-CN>*.*<renderer.js
 "for private repositories outside of GitHub.com. This feature is experimental and subject to change.">*.*<"此功能为实验性，可能会发生变化。">*.*<补全-zh-CN>*.*<renderer.js
 "When enabled, GitHub Desktop will attempt to load environment variables from your shell when executing Git hooks. This is useful if your Git hooks depend on environment variables set in your shell configuration files, a common practice for version managers such as nvm, rbenv, asdf, etc.">*.*<"启用后，GitHub Desktop 在执行 Git 钩子时会尝试从你的 shell 加载环境变量。如果你的 Git 钩子依赖于 shell 配置文件中设置的环境变量（这是 nvm、rbenv、asdf 等版本管理器的常见做法），这将非常有用。">*.*<补全-zh-CN>*.*<renderer.js
@@ -1192,7 +1197,9 @@ label:"Ignore File (Add to .gitignore)",>*.*<label:"忽略此文件（添加到.
 "Updating submodules">*.*<"正在更新子模块">*.*<补全-zh-CN>*.*<renderer.js
 "Will be created as ">*.*<"将创建为">*.*<补全-zh-CN>*.*<renderer.js
 "Your Account Emails">*.*<"你的账户邮箱">*.*<补全-zh-CN>*.*<renderer.js
-"At the end of the ">*.*<"在末尾">*.*<补全-zh-CN>*.*<renderer.js
+"At the end of the ",e.toLowerCase()," flow, GitHub Desktop will enable you to force push the branch to update the upstream branch. Force pushing will alter the history on the remote and potentially cause problems for others collaborating on this branch.">*.*<"在",e.toLowerCase(),"流程结束时，GitHub Desktop 会让你强制推送该分支以更新上游分支。强制推送会改变远程上的历史记录，可能会给该分支上的其他协作者带来麻烦。">*.*<补全-zh-CN>*.*<renderer.js
+`${e} Will Require Force Push`>*.*<`${e}将需要强制推送`>*.*<补全-zh-CN>*.*<renderer.js
+`Begin ${e}`>*.*<`开始${e}`>*.*<补全-zh-CN>*.*<renderer.js
 "Checking out files">*.*<"正在检出文件">*.*<补全-zh-CN>*.*<renderer.js
 "Clone a Repository">*.*<"克隆仓库">*.*<补全-zh-CN>*.*<renderer.js
 "Committing changes">*.*<"正在提交更改">*.*<补全-zh-CN>*.*<renderer.js
@@ -1355,9 +1362,17 @@ label:"Ignore File (Add to .gitignore)",>*.*<label:"忽略此文件（添加到.
 "Add Worktree">*.*<"添加工作树">*.*<补全-zh-CN>*.*<renderer.js
 "Bearer token">*.*<"持有者令牌">*.*<补全-zh-CN>*.*<renderer.js
 "Checking out">*.*<"正在检出">*.*<补全-zh-CN>*.*<renderer.js
-"Cherry-pick ">*.*<"挑拣">*.*<补全-zh-CN>*.*<renderer.js
+`Included in commit (${i})`>*.*<`包含在提交中 (${i})`>*.*<补全-zh-CN>*.*<renderer.js
+`Excluded from commit (${s})`>*.*<`从提交中排除 (${s})`>*.*<补全-zh-CN>*.*<renderer.js
+`New files (${t})`>*.*<`新文件 (${t})`>*.*<补全-zh-CN>*.*<renderer.js
+`Modified files (${n})`>*.*<`已修改文件 (${n})`>*.*<补全-zh-CN>*.*<renderer.js
+`Deleted files (${r})`>*.*<`已删除文件 (${r})`>*.*<补全-zh-CN>*.*<renderer.js
+"and get going on your next project?">*.*<"并开始你的下一个项目？">*.*<补全-zh-CN>*.*<renderer.js
+"create a new branch">*.*<"创建新分支">*.*<补全-zh-CN>*.*<renderer.js
+"create a pull request">*.*<"创建拉取请求">*.*<补全-zh-CN>*.*<renderer.js
+"from the current branch?">*.*<"从当前分支？">*.*<补全-zh-CN>*.*<renderer.js
 "Clone failed">*.*<"克隆失败">*.*<补全-zh-CN>*.*<renderer.js
-"Create a Tag">*.*<"创建标签">*.*<补全-zh-CN>*.*<renderer.js
+"Create a Tag">*.*<"创建 Tag">*.*<补全-zh-CN>*.*<renderer.js
 "Display Name">*.*<"显示名称">*.*<补全-zh-CN>*.*<renderer.js
 "Enhancements">*.*<"增强功能">*.*<补全-zh-CN>*.*<renderer.js
 "I understand">*.*<"我知道了">*.*<补全-zh-CN>*.*<renderer.js
@@ -1371,7 +1386,7 @@ label:"Ignore File (Add to .gitignore)",>*.*<label:"忽略此文件（添加到.
 "You're done!">*.*<"完成了！">*.*<补全-zh-CN>*.*<renderer.js
 "(unchanged)">*.*<"（未更改）">*.*<补全-zh-CN>*.*<renderer.js
 "Branch Name">*.*<"分支名称">*.*<补全-zh-CN>*.*<renderer.js
-"Delete tag…">*.*<"删除标签…">*.*<补全-zh-CN>*.*<renderer.js
+"Delete tag…">*.*<"删除 Tag…">*.*<补全-zh-CN>*.*<renderer.js
 "Description">*.*<"描述">*.*<补全-zh-CN>*.*<renderer.js
 "Expand Down">*.*<"向下展开">*.*<补全-zh-CN>*.*<renderer.js
 "Full Name: ">*.*<"全名：">*.*<补全-zh-CN>*.*<renderer.js
@@ -1395,8 +1410,8 @@ label:"Ignore File (Add to .gitignore)",>*.*<label:"忽略此文件（添加到.
 "Appearance">*.*<"外观">*.*<补全-zh-CN>*.*<renderer.js
 "Conflicted">*.*<"冲突">*.*<补全-zh-CN>*.*<renderer.js
 "Copy Paths">*.*<"复制路径">*.*<补全-zh-CN>*.*<renderer.js
-"Create Tag">*.*<"创建标签">*.*<补全-zh-CN>*.*<renderer.js
-"Delete Tag">*.*<"删除标签">*.*<补全-zh-CN>*.*<renderer.js
+"Create Tag">*.*<"创建 Tag">*.*<补全-zh-CN>*.*<renderer.js
+"Delete Tag">*.*<"删除 Tag">*.*<补全-zh-CN>*.*<renderer.js
 "Difference">*.*<"差异">*.*<补全-zh-CN>*.*<renderer.js
 "Edit Model">*.*<"编辑模型">*.*<补全-zh-CN>*.*<renderer.js
 "Enterprise">*.*<"企业版">*.*<补全-zh-CN>*.*<renderer.js
