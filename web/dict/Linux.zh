@@ -673,7 +673,7 @@ label:"Discarding stash",>*.*<label:"放弃暂存",>*.*<待分组>*.*<renderer.j
 label:"Force pushing",>*.*<label:"强制推送",>*.*<待分组>*.*<renderer.js
 label:"Undo commit",>*.*<label:"撤销提交",>*.*<待分组>*.*<renderer.js
 label:"Local path",>*.*<label:"本地路径",>*.*<待分组>*.*<renderer.js
-label:"Git ignore",>*.*<label:"Git ignore",>*.*<待分组>*.*<renderer.js
+label:"Git ignore",>*.*<label:"Git 忽略",>*.*<待分组>*.*<renderer.js
 label:"License",>*.*<label:"许可证",>*.*<待分组>*.*<renderer.js
 label:"Description",>*.*<label:"描述",>*.*<待分组>*.*<renderer.js
 label:"Initialize this repository with a README",>*.*<label:"使用 README 初始化此代码仓库",>*.*<待分组>*.*<renderer.js

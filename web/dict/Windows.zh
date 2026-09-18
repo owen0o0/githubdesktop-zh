@@ -442,7 +442,7 @@ label:"Expand whole file",>*.*<label:"展开整个文件",>*.*<待分组>*.*<ren
 label:"File does not exist on disk",>*.*<label:"文件不存在于磁盘上",>*.*<待分组>*.*<renderer.js
 label:"For my own purposes",>*.*<label:"为个人目的",>*.*<待分组>*.*<renderer.js
 label:"Force pushing",>*.*<label:"强制推送",>*.*<待分组>*.*<renderer.js
-label:"Git ignore",>*.*<label:"Git ignore",>*.*<待分组>*.*<renderer.js
+label:"Git ignore",>*.*<label:"Git 忽略",>*.*<待分组>*.*<renderer.js
 label:"Hide whitespace changes">*.*<label:"隐藏空白更改">*.*<待分组>*.*<renderer.js
 label:"Ignore file (add to .gitignore)",>*.*<label:"Ignore file (添加到 .gitignore)",>*.*<待分组>*.*<renderer.js
 label:"Include selected files",>*.*<label:"包含所选文件",>*.*<待分组>*.*<renderer.js

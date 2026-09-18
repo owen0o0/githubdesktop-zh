@@ -1,3 +1,13 @@
+"Cancel generating commit details">*.*<"取消生成提交详情">*.*<未分类>*.*<renderer.js
+?"Generating commit details…">*.*<?"正在生成提交详情…">*.*<未分类>*.*<renderer.js
+"Review and edit the generated message carefully before use.">*.*<"使用前请仔细检查并编辑生成的提交信息。">*.*<未分类>*.*<renderer.js
+okButtonText:"Override">*.*<okButtonText:"覆盖">*.*<未分类>*.*<renderer.js
+"to customize how commit messages are generated.">*.*<"来自定义提交信息的生成方式。">*.*<未分类>*.*<renderer.js
+"Copilot Instructions">*.*<"Copilot 指令">*.*<未分类>*.*<renderer.js
+"The commit message you have entered will be overridden by the generated commit message.">*.*<"您输入的提交信息将被生成的提交信息覆盖。">*.*<未分类>*.*<renderer.js
+" ","to '",t.to,"' the next time the file is checked out.">*.*<" ","在下次检出该文件时转换为 '",t.to,"'。">*.*<未分类>*.*<renderer.js
+"This file uses '">*.*<"此文件使用 '">*.*<未分类>*.*<renderer.js
+"' line endings, but">*.*<"' 行尾符，但">*.*<未分类>*.*<renderer.js
 "Modified files">*.*<"已修改文件">*.*<未分类>*.*<renderer.js
 return"Modified">*.*<return"已修改">*.*<未分类>*.*<renderer.js
 "Copy the full SHA">*.*<"复制完整的 SHA">*.*<未分类>*.*<renderer.js
@@ -120,7 +130,7 @@ Repository URL or GitHub username and repository>*.*<存储库URL或GitHub用户
 Refresh the list of repositories>*.*<刷新存储库列表>*.*<待分组>*.*<renderer.js
 Looks like there are no repositories for>*.*<没有仓库>*.*<待分组>*.*<renderer.js
 "Refresh this list">*.*<"刷新此列表">*.*<待分组>*.*<renderer.js
-Loading repositories from ${n}…>*.*<从 ${n} 加载存储库…>*.*<待分组>*.*<renderer.js
+`Loading repositories from ${n.friendlyEndpoint}…`>*.*<`正在从 ${n.friendlyEndpoint} 加载仓库…`>*.*<待分组>*.*<renderer.js
 if you've created a repository recently.>*.*<如果您最近创建了存储库。>*.*<待分组>*.*<renderer.js
 Create a New Repository">*.*<新建存储库">*.*<待分组>*.*<renderer.js
 Initialize this repository with a README>*.*<添加README文件>*.*<待分组>*.*<renderer.js
@@ -670,7 +680,7 @@ label:"Discarding changes permanently",>*.*<label:"永久性放弃更改",>*.*<�
 label:"Discarding stash",>*.*<label:"放弃暂存",>*.*<待分组>*.*<renderer.js
 label:"Force pushing",>*.*<label:"强制推送",>*.*<待分组>*.*<renderer.js
 label:"Local Path",>*.*<label:"本地路径",>*.*<待分组>*.*<renderer.js
-label:"Git Ignore",>*.*<label:"Git ignore",>*.*<待分组>*.*<renderer.js
+label:"Git Ignore",>*.*<label:"Git 忽略",>*.*<待分组>*.*<renderer.js
 label:"License",>*.*<label:"许可证",>*.*<待分组>*.*<renderer.js
 label:"Initialize this repository with a README",>*.*<label:"使用 README 初始化此代码仓库",>*.*<待分组>*.*<renderer.js
 label:"Create branch based on…",>*.*<label:"基于以下创建分支…",>*.*<待分组>*.*<renderer.js
