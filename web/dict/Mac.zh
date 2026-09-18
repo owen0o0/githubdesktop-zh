@@ -1,3 +1,34 @@
+"Modified files">*.*<"已修改文件">*.*<未分类>*.*<renderer.js
+return"Modified">*.*<return"已修改">*.*<未分类>*.*<renderer.js
+"Copy the full SHA">*.*<"复制完整的 SHA">*.*<未分类>*.*<renderer.js
+"Expand">*.*<"展开">*.*<未分类>*.*<renderer.js
+"Collapse">*.*<"折叠">*.*<未分类>*.*<renderer.js
+"Show Worktrees List">*.*<"显示工作树列表">*.*<菜单-视图>*.*<main.js
+`Deleted files (${>*.*<`已删除文件 (${>*.*<未分类>*.*<renderer.js
+"Deleted files">*.*<"已删除文件">*.*<未分类>*.*<renderer.js
+`Included in commit (${>*.*<`已包含在提交中 (${>*.*<未分类>*.*<renderer.js
+`Excluded from commit (${>*.*<`已从提交中排除 (${>*.*<未分类>*.*<renderer.js
+"Excluded from commit">*.*<"已从提交中排除">*.*<未分类>*.*<renderer.js
+"Included in commit">*.*<"已包含在提交中">*.*<未分类>*.*<renderer.js
+"Expand Active Resizable">*.*<"展开活动可调整大小区域">*.*<菜单-视图>*.*<main.js
+"Contract Active Resizable">*.*<"收缩活动可调整大小区域">*.*<菜单-视图>*.*<main.js
+"Open With…">*.*<"打开方式…">*.*<未分类>*.*<main.js
+"Add to Dictionary">*.*<"添加到词典">*.*<未分类>*.*<main.js
+label:(h?"Hide":"Show")+" Changes Filter">*.*<label:(h?"隐藏":"显示")+"更改筛选器">*.*<未分类>*.*<main.js
+"Settings…">*.*<"设置…">*.*<未分类>*.*<main.js
+"Octicons">*.*<"Octicons 图标">*.*<未分类>*.*<main.js
+"Copilot snapshot card">*.*<"Copilot 快照卡片">*.*<未分类>*.*<main.js
+"Apple silicon banner">*.*<"Apple 芯片横幅">*.*<未分类>*.*<main.js
+"Thank you">*.*<"谢谢">*.*<未分类>*.*<main.js
+"Enable Commit Spellcheck">*.*<"启用提交拼写检查">*.*<补全-zh-CN>*.*<renderer.js
+"Disable Commit Spellcheck">*.*<"禁用提交拼写检查">*.*<补全-zh-CN>*.*<renderer.js
+"grant permission">*.*<"授予权限">*.*<设置-通知>*.*<renderer.js
+"Filter models">*.*<"搜索模型">*.*<设置-Copilot>*.*<renderer.js
+:"Done">*.*<:"完成">*.*<补全-zh-CN>*.*<renderer.js
+"Custom Providers">*.*<"自定义提供商">*.*<设置-Copilot>*.*<renderer.js
+"Configure custom providers…">*.*<"配置自定义提供商…">*.*<设置-Copilot>*.*<renderer.js
+"Code completions">*.*<"代码补全">*.*<设置-Copilot>*.*<renderer.js
+"Chat messages">*.*<"聊天信息">*.*<设置-Copilot>*.*<renderer.js
 label:"File">*.*<label:"文件">*.*<菜单-文件>*.*<main.js
 New Repository…>*.*<新建存储库>*.*<菜单-文件>*.*<main.js
 Add Local Repository…>*.*<添加存储库>*.*<菜单-文件>*.*<main.js
@@ -40,8 +71,8 @@ New Branch…>*.*<新建>*.*<菜单-分支>*.*<main.js
 Rename…>*.*<重命名>*.*<菜单-分支>*.*<main.js
 Delete…>*.*<删除>*.*<菜单-分支>*.*<main.js
 Discard All Changes…>*.*<放弃所有更改>*.*<菜单-分支>*.*<main.js
-Stash All Changes…>*.*<暂存所有更改(stash)>*.*<菜单-分支>*.*<main.js
-"Stash All Changes">*.*<"暂存所有更改(stash)">*.*<菜单-分支>*.*<main.js
+"Stash All Changes…">*.*<"暂存所有更改...">*.*<菜单-分支>*.*<main.js
+"Stash All Changes">*.*<"暂存所有更改">*.*<菜单-分支>*.*<main.js
 Update from ${a}>*.*<从${a}更新>*.*<菜单-分支>*.*<main.js
 "Compare to Branch">*.*<"与其他分支比较">*.*<菜单-分支>*.*<main.js
 Squash and Merge into Current Branch…>*.*<压缩合并到当前分支>*.*<菜单-分支>*.*<main.js
@@ -49,8 +80,8 @@ Merge into Current Branch…>*.*<合并到当前分支>*.*<菜单-分支>*.*<mai
 Rebase Current Branch…>*.*<变基当前分支(Rebase)>*.*<菜单-分支>*.*<main.js
 "Compare on GitHub">*.*<"在GitHub上比较">*.*<菜单-分支>*.*<main.js
 "View Branch on GitHub">*.*<"在GitHub上查看">*.*<菜单-分支>*.*<main.js
-View Pull Request on GitHub>*.*<在 GitHub 上查看Pull(拉取)请求>*.*<菜单-分支>*.*<main.js
-"Create Pull Request">*.*<"创建拉取(Pull)请求">*.*<菜单-分支>*.*<main.js
+View Pull Request on GitHub>*.*<在 GitHub 上查看拉取请求>*.*<菜单-分支>*.*<main.js
+"Create Pull Request">*.*<"创建拉取请求">*.*<菜单-分支>*.*<main.js
 Report Issue…>*.*<问题反馈>*.*<菜单-帮助>*.*<main.js
 Contact GitHub Support…>*.*<联系GitHub支持>*.*<菜单-帮助>*.*<main.js
 "Show User Guides">*.*<"用户指南">*.*<菜单-帮助>*.*<main.js
@@ -70,7 +101,7 @@ Clone a Repository from the Internet…>*.*<克隆存储库...>*.*<开始页>*.*
 Create a New Repository on your Hard Drive…>*.*<创建存储库...>*.*<开始页>*.*<renderer.js
 Add an Existing Repository from your Hard Drive…>*.*<打开存储库...>*.*<开始页>*.*<renderer.js
 ProTip!">*.*<提示：">*.*<开始页>*.*<renderer.js
- You can drag & drop an existing repository folder here to add it to Desktop>*.*<您可以将本地的存储库文件夹拖放到此处进行添加>*.*<开始页>*.*<renderer.js
+You can drag & drop an existing repository folder here to add it to Desktop>*.*<您可以将本地的存储库文件夹拖放到此处进行添加>*.*<开始页>*.*<renderer.js
 Clone a Repository">*.*<克隆仓库">*.*<待分组>*.*<renderer.js
 "Sign In";>*.*<"登录";>*.*<待分组>*.*<renderer.js
 Sign in to your GitHub.com account to access your repositories.>*.*<登录您的GitHub.com帐户访问您的存储库。>*.*<待分组>*.*<renderer.js
@@ -119,14 +150,14 @@ Summary (required)>*.*<摘要(必填)>*.*<待分组>*.*<renderer.js
 Create ${i}>*.*<创建 ${i}>*.*<待分组>*.*<renderer.js
 Delete ${i}>*.*<删除 ${i}>*.*<待分组>*.*<renderer.js
 Update ${i}>*.*<更新 ${i}>*.*<待分组>*.*<renderer.js
-Your changes will modify your >*.*<您的更改将修改 >*.*<待分组>*.*<renderer.js
+Your changes will modify your>*.*<您的更改将修改>*.*<待分组>*.*<renderer.js
 "most recent commit">*.*<"最近提交">*.*<待分组>*.*<renderer.js
 "Stop amending">*.*<"停止修改">*.*<待分组>*.*<renderer.js
 to make these changes as a new commit.>*.*<将这些更改作为新提交。>*.*<待分组>*.*<renderer.js
-You don't have write access to >*.*<您没有写入权限 >*.*<待分组>*.*<renderer.js
+You don't have write access to>*.*<您没有写入权限>*.*<待分组>*.*<renderer.js
 ". Want to">*.*<". 想要">*.*<待分组>*.*<renderer.js
 "create a fork">*.*<"创建分支">*.*<待分组>*.*<renderer.js
- is a protected branch. Want to>*.*< 是受保护的分支。想要>*.*<待分组>*.*<renderer.js
+is a protected branch. Want to>*.*<是受保护的分支。想要>*.*<待分组>*.*<renderer.js
 "switch branches">*.*<"交换分支">*.*<待分组>*.*<renderer.js
 "Amending">*.*<"修改中">*.*<待分组>*.*<renderer.js
 "Amend">*.*<"修改">*.*<待分组>*.*<renderer.js
@@ -158,7 +189,7 @@ placeholder:"Description",>*.*<placeholder:"描述",>*.*<待分组>*.*<renderer.
 "Publish your repository to GitHub">*.*<"将仓库发布到GitHub">*.*<待分组>*.*<renderer.js
 This repository is currently only available on your local machine. By publishing it on GitHub you can share it, and collaborate with others.>*.*<此仓库当前仅在本地计算机上可用。通过在GitHub上发布，您可以共享它，并与其他人协作。>*.*<待分组>*.*<renderer.js
 The current branch (>*.*<当前分支(>*.*<待分组>*.*<renderer.js
-) hasn't been published to the remote yet. By publishing it >*.*<)尚未发布到远程。通过发布它 >*.*<待分组>*.*<renderer.js
+) hasn't been published to the remote yet. By publishing it>*.*<)尚未发布到远程。通过发布它>*.*<待分组>*.*<renderer.js
 "to GitHub">*.*<"到 GitHub">*.*<待分组>*.*<renderer.js
 " you can share it, ">*.*<" 你可以分享, ">*.*<待分组>*.*<renderer.js
 "and collaborate with others.">*.*<"并与他人合作。">*.*<待分组>*.*<renderer.js
@@ -177,14 +208,14 @@ Could not find matching menu item for ${e}>*.*<找不到的匹配菜单项 ${e}>
 "Options">*.*<"选项">*.*<待分组>*.*<renderer.js
 "Select your editor in">*.*<"选择编辑器：">*.*<待分组>*.*<renderer.js
 View the files of your repository in ${e}>*.*<在资源管理器中查看存储库>*.*<待分组>*.*<renderer.js
-changed ${1===e?"file":"files"}>*.*<更改 ${1 === e ? "文件" : "文件"}>*.*<待分组>*.*<renderer.js
+changed ${1===e?"file":"files"}>*.*<个已更改 ${1 === e ? "文件" : "文件"}>*.*<待分组>*.*<renderer.js
 "Undo"))>*.*<"撤销"))>*.*<待分组>*.*<renderer.js
 Undo is disabled while the repository is being updated>*.*<更新仓库时禁用撤消>*.*<待分组>*.*<renderer.js
 "Undo commit">*.*<"撤消提交">*.*<待分组>*.*<renderer.js
 "Committed ">*.*<"提交于">*.*<待分组>*.*<renderer.js
 "ago">*.*<"前">*.*<待分组>*.*<renderer.js
 "file":"files">*.*<"文件":"文件">*.*<待分组>*.*<renderer.js
- changed $>*.*< 项变更$>*.*<待分组>*.*<renderer.js
+changed $>*.*<项变更$>*.*<待分组>*.*<renderer.js
 "Accounts")>*.*<"帐户")>*.*<待分组>*.*<renderer.js
 "Integrations")>*.*<"集成")>*.*<待分组>*.*<renderer.js
 "Appearance")>*.*<"主题")>*.*<待分组>*.*<renderer.js
@@ -290,7 +321,7 @@ The commits in the selected branch will be combined into one commit in the curre
 label:"Rebase",>*.*<label:"变基",>*.*<待分组>*.*<renderer.js
 The commits from the selected branch will be rebased and added to the current branch>*.*<来自所选分支的提交将重新设置基础并添加到当前分支>*.*<待分组>*.*<renderer.js
 Squash and ">*.*<压缩并">*.*<待分组>*.*<renderer.js
-Authentication failed. Some common reasons include:\n\n- You are not logged in to your account: see File > Options.\n- You may need to log out and log back in to refresh your token.\n- You do not have permission to access this repository.\n- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.\n- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.\n- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.\n- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service>*.*<身份验证失败。一些常见原因包括：\n\n- 您尚未登录到您的帐户：请参阅文件>选项。\n- 您可能需要注销并重新登录才能刷新令牌。\n- 您没有访问此存储库的权限。\n- 存储库存档在 GitHub 上。检查存储库设置以确认您仍可以推送提交。\n- 如果您使用 SSH 身份验证，请检查您的密钥是否已添加到 ssh 代理并与您的帐户关联。\n- 如果使用 SSH 身份验证，请确保存储库托管服务的主机密钥验证通过。\n- 如果使用了用户名/密码身份验证，则可能需要使用个人访问令牌而不是帐户密码。请查看存储库托管服务的文档>*.*<待分组>*.*<renderer.js
+Authentication failed. Some common reasons include:\n\n- You are not logged in to your account: see File > Options.\n- You may need to log out and log back in to refresh your token.\n- You do not have permission to access this repository.\n- The repository is archived on GitHub. Check the repository settings to confirm you are still permitted to push commits.\n- If you use SSH authentication, check that your key is added to the ssh-agent and associated with your account.\n- If you use SSH authentication, ensure the host key verification passes for your repository hosting service.\n- If you used username / password authentication, you might need to use a Personal Access Token instead of your account password. Check the documentation of your repository hosting service>*.*<身份验证失败。一些常见原因包括：\n\n- 您尚未登录到您的帐户：请参阅文件>选项。\n- 您可能需要注销并重新登录才能刷新 token。\n- 您没有访问此存储库的权限。\n- 存储库存档在 GitHub 上。检查存储库设置以确认您仍可以推送提交。\n- 如果您使用 SSH 身份验证，请检查您的密钥是否已添加到 ssh 代理并与您的帐户关联。\n- 如果使用 SSH 身份验证，请确保存储库托管服务的主机密钥验证通过。\n- 如果使用了用户名/密码身份验证，则可能需要使用个人访问令牌而不是帐户密码。请查看存储库托管服务的文档>*.*<待分组>*.*<renderer.js
 The SSH key is unverified>*.*<SSH密钥未验证>*.*<待分组>*.*<renderer.js
 The remote disconnected. Check your Internet connection and try again>*.*<远程已断开连接。请检查您的Internet连接，然后重试>*.*<待分组>*.*<renderer.js
 The host is down. Check your Internet connection and try again>*.*<主机已关闭。请检查您的Internet连接，然后重试>*.*<待分组>*.*<renderer.js
@@ -348,15 +379,15 @@ okButtonText:"Publish Branch">*.*<okButtonText:"发布分支">*.*<待分组>*.*<
 okButtonText:"Push Commits",>*.*<okButtonText:"推送提交",>*.*<待分组>*.*<renderer.js
 Create without pushing>*.*<无推送创建>*.*<待分组>*.*<renderer.js
 Your branch must be published before opening a pull request.>*.*<您的分支必须在打开拉取请求之前发布。>*.*<待分组>*.*<renderer.js
-Always available in the toolbar when there are local commits waiting to be pushed or >*.*<存储库菜单 或 快捷键:>*.*<待分组>*.*<renderer.js
+Always available in the toolbar when there are local commits waiting to be pushed or>*.*<存储库菜单 或 快捷键:>*.*<待分组>*.*<renderer.js
 Could not find matching menu item for push>*.*<找不到匹配的推送菜单项>*.*<待分组>*.*<renderer.js
 "1 local commit">*.*<"1 个本地提交">*.*<待分组>*.*<renderer.js
 local commits`>*.*<个本地提交`>*.*<待分组>*.*<renderer.js
 `You have>*.*<`你有>*.*<待分组>*.*<renderer.js
-`Push >*.*<`推送 >*.*<待分组>*.*<renderer.js
+`Push>*.*<`推送>*.*<待分组>*.*<renderer.js
 to the ${t.name} remote>*.*<到远程 ${t.name}>*.*<待分组>*.*<renderer.js
 "commits")>*.*<"提交")>*.*<待分组>*.*<renderer.js
-An updated version of GitHub Desktop is available and will be installed at the next launch. See>*.*< GitHub Desktop 有新版本可用，将在下次启动时安装。查看>*.*<待分组>*.*<renderer.js
+An updated version of GitHub Desktop is available and will be installed at the next launch. See>*.*<GitHub Desktop 有新版本可用，将在下次启动时安装。查看>*.*<待分组>*.*<renderer.js
 what's new>*.*<更新内容>*.*<待分组>*.*<renderer.js
 " or",>*.*<" 或",>*.*<待分组>*.*<renderer.js
 "restart GitHub Desktop">*.*<"重启 GitHub Desktop">*.*<待分组>*.*<renderer.js
@@ -381,15 +412,15 @@ Open with Default Program>*.*<使用默认程序打开>*.*<待分组>*.*<rendere
 "Recycle Bin",>*.*<"回收站",>*.*<待分组>*.*<renderer.js
 View your stashed changes>*.*<查看暂存更改>*.*<待分组>*.*<renderer.js
 "You have ">*.*<"你有 ">*.*<待分组>*.*<renderer.js
-`You have ${l.join(" and ")} waiting to be pushed to ${o?"GitHub":"the remote"}.`>*.*<`您有 ${l.join(" and ")} 等待推送到 ${o?"GitHub":"远程"}。`>*.*<待分组>*.*<renderer.js
+`You have ${l.join(" and ")} waiting to be pushed to ${o?"GitHub":"the remote"}.`>*.*<`您有 ${l.join(" 和 ")} 等待推送到 ${o?"GitHub":"远程仓库"}。`>*.*<待分组>*.*<renderer.js
 "the remote">*.*<"远程">*.*<待分组>*.*<renderer.js
 "change":"changes">*.*<"项更改":"项更改">*.*<待分组>*.*<renderer.js
- in progress that you have not yet committed.>*.*<在你的程序中，您尚未提交。>*.*<待分组>*.*<renderer.js
+in progress that you have not yet committed.>*.*<在你的程序中，您尚未提交。>*.*<待分组>*.*<renderer.js
 When a stash exists, access it at the bottom of the Changes tab to the left.>*.*<当暂存更改存在时，可以在左侧的“更改”选项卡的底部查看这些暂存的更改。>*.*<待分组>*.*<renderer.js
 "Discard changes":`Discard ${e.length} selected changes`;>*.*<"放弃更改":`放弃 ${e.length} 项选中的更改`;>*.*<待分组>*.*<renderer.js
 Discard all changes…>*.*<放弃所有更改...>*.*<待分组>*.*<renderer.js
-Stash all changes…>*.*<暂存所有更改...>*.*<待分组>*.*<renderer.js
-Stash all changes>*.*<暂存所有更改>*.*<待分组>*.*<renderer.js
+"Stash All Changes…">*.*<"暂存所有更改...">*.*<待分组>*.*<renderer.js
+"Stash All Changes">*.*<"暂存所有更改">*.*<待分组>*.*<renderer.js
 Copy paths>*.*<复制路径>*.*<待分组>*.*<renderer.js
 Copy relative paths>*.*<复制相对路径>*.*<待分组>*.*<renderer.js
 Ignore file (add to .gitignore)>*.*<忽略文件（添加到.gitignore）>*.*<待分组>*.*<renderer.js
@@ -419,7 +450,7 @@ Are you sure you want to discard the selected changes to:>*.*<确定要放弃选
 label:"Do not show this message again",>*.*<label:"不再显示此消息",>*.*<待分组>*.*<renderer.js
 Are you sure you want to discard all changes to:>*.*<确定要放弃所有更改吗？>*.*<待分组>*.*<renderer.js
 return "Discard changes">*.*<return "放弃更改">*.*<待分组>*.*<renderer.js
-Changes can be restored by retrieving them from the >*.*<变更可以恢复，通过检索>*.*<待分组>*.*<renderer.js
+Changes can be restored by retrieving them from the>*.*<变更可以恢复，通过检索>*.*<待分组>*.*<renderer.js
 "Confirm discard changes">*.*<"确认放弃更改">*.*<待分组>*.*<renderer.js
 Confirm discard all changes>*.*<确认放弃所有更改>*.*<待分组>*.*<renderer.js
 "Discard all changes":"Discard changes">*.*<"放弃所有更改":"放弃更改">*.*<待分组>*.*<renderer.js
@@ -448,9 +479,9 @@ Create New Repository…>*.*<创建存储库>*.*<待分组>*.*<renderer.js
 Add Existing Repository…>*.*<添加存储库>*.*<待分组>*.*<renderer.js
 },"Add",>*.*<},"添加",>*.*<待分组>*.*<renderer.js
 Sorry, I can't find that repository>*.*<抱歉，未找到存储库>*.*<待分组>*.*<renderer.js
-ProTip! Press >*.*<提示! >*.*<待分组>*.*<renderer.js
+ProTip! Press>*.*<提示!>*.*<待分组>*.*<renderer.js
 to quickly add a local repository, and>*.*<可快速添加本地存储库，>*.*<待分组>*.*<renderer.js
- to clone from anywhere within the app>*.*<可快速进行克隆>*.*<待分组>*.*<renderer.js
+to clone from anywhere within the app>*.*<可快速进行克隆>*.*<待分组>*.*<renderer.js
 ||"Filter",>*.*<||"请输入筛选条件",>*.*<待分组>*.*<renderer.js
 "New Branch")>*.*<"新建分支")>*.*<待分组>*.*<renderer.js
 Sorry, I can't find that branch>*.*<抱歉，未找到分支>*.*<待分组>*.*<renderer.js
@@ -472,7 +503,6 @@ By creating an account, you agree to the>*.*<创建账户，代表您同意>*.*<
 For more information about GitHub's privacy practices, see the>*.*<更多信息，请参阅>*.*<待分组>*.*<renderer.js
 "GitHub Privacy Statement">*.*<"GitHub 隐私声明">*.*<待分组>*.*<renderer.js
 GitHub Desktop sends usage metrics to improve the product and inform feature decisions. Read more about what metrics are sent and how we use them>*.*<Github Desktop将发送一些数据用于完善产品。阅读相关数据及如何使用：>*.*<待分组>*.*<renderer.js
-GitHub Desktop is a seamless way to contribute to projects on GitHub and GitHub Enterprise. Sign in below to get started with your existing projects.>*.*<>*.*<待分组>*.*<renderer.js
 This directory appears to be a Git repository. Would you like to>*.*<这个目录看起来是一个 Git 仓库。你想要>*.*<待分组>*.*<renderer.js
 "Successfully merged ">*.*<"成功合并 ">*.*<待分组>*.*<renderer.js
 This action cannot be undone.>*.*<此操作不可撤销>*.*<待分组>*.*<renderer.js
@@ -557,7 +587,7 @@ title:"Push Rejected",>*.*<title:"推送被拒绝",>*.*<待分组>*.*<renderer.j
 title:"Re-authorization Required",>*.*<title:"需要重新授权",>*.*<待分组>*.*<renderer.js
 title:"Do you want to fork this repository?",>*.*<title:"是否要 fork 此存储库？",>*.*<待分组>*.*<renderer.js
 title:"Create a Tag",>*.*<title:"创建 Tag",>*.*<待分组>*.*<renderer.js
-title:"Delete Tag",>*.*<title:"删除标签",>*.*<待分组>*.*<renderer.js
+title:"Delete Tag",>*.*<title:"删除 Tag",>*.*<待分组>*.*<renderer.js
 title:"To contribute to the parent project",>*.*<title:"为了为父项目做贡献",>*.*<待分组>*.*<renderer.js
 title:"For my own purposes",>*.*<title:"出于自己的目的",>*.*<待分组>*.*<renderer.js
 title:"How are you planning to use this fork?",>*.*<title:"你打算如何使用此 fork？",>*.*<待分组>*.*<renderer.js
@@ -750,7 +780,7 @@ now and open a pull request?>*.*<并且拉取？>*.*<待分组>*.*<renderer.js
 that haven't been pushed to the remote yet.>*.*<尚未推送到远程的提交。>*.*<待分组>*.*<renderer.js
 Would you like to push your changes to>*.*<推送更改到>*.*<待分组>*.*<renderer.js
 before creating your pull request?>*.*<在创建拉取请求之前？>*.*<待分组>*.*<renderer.js
-Choose a branch to merge into >*.*<选择一个要合并到的分支。>*.*<待分组>*.*<renderer.js
+Choose a branch to merge into>*.*<选择一个要合并到的分支。>*.*<待分组>*.*<renderer.js
 The commits from the selected branch will be added to the current branch via a merge commit.>*.*<从所选分支的提交将通过合并提交的方式添加到当前分支>*.*<待分组>*.*<renderer.js
 The commits in the selected branch will be combined into one commit in the current branch.>*.*<所选分支中的提交将被合并为当前分支的一个提交>*.*<待分组>*.*<renderer.js
 The commits from the selected branch will be rebased and added to the current branch.>*.*<从所选分支的提交将被变基（rebase）并添加到当前分支>*.*<待分组>*.*<renderer.js
@@ -767,8 +797,6 @@ The default branch of the upstream repository. Pick this to start on something n
 "Sign Out">*.*<"退出">*.*<待分组>*.*<renderer.js
 "Your Name">*.*<"您的姓名">*.*<待分组>*.*<renderer.js
 "your-email@example.com">*.*<"您的邮箱">*.*<待分组>*.*<renderer.js
-Disable commit spellcheck>*.*<禁用提交时的拼写检查>*.*<待分组>*.*<renderer.js
-Enable commit spellcheck>*.*<启用提交时的拼写检查>*.*<待分组>*.*<renderer.js
 Add Co-Authors>*.*<添加合作者>*.*<待分组>*.*<renderer.js
 Remove Co-Authors>*.*<移除合作者>*.*<待分组>*.*<renderer.js
 This submodule change cannot be added to a commit in this repository because it contains changes that have not been committed." : u ? "Only changes that have been committed within the submodule will be added to this repository. You need to commit any other modified or untracked changes in the submodule before including them in this repository.>*.*<无法将此子模块更改添加到此仓库的提交中，因为它包含尚未提交的更改。只有在子模块中已经提交的更改才会被添加到此仓库中。在将其包含在此仓库中之前，您需要提交子模块中的任何其他已修改或未跟踪更改。>*.*<待分组>*.*<renderer.js
@@ -778,8 +806,6 @@ changes. Those changes must be committed inside of the submodule before they can
 label:"Also move this repository to Trash",>*.*<label:"同时将仓库移到废纸篓",>*.*<待分组>*.*<renderer.js
 "Copy Tag">*.*<"复制 Tag">*.*<待分组>*.*<renderer.js
 "Copy Tags">*.*<"复制 Tag">*.*<待分组>*.*<renderer.js
-
-# --- supplemented from zh-CN.json (quote-bounded literals only) ---
 "Commit Message Generation">*.*<"提交信息生成">*.*<补全-zh-CN>*.*<renderer.js
 "Copilot returned invalid JSON for commit message generation">*.*<"Copilot 在生成提交信息时返回无效 JSON">*.*<补全-zh-CN>*.*<renderer.js
 "Commit message generation was cancelled">*.*<"提交信息生成被取消">*.*<补全-zh-CN>*.*<renderer.js
@@ -788,7 +814,7 @@ label:"Also move this repository to Trash",>*.*<label:"同时将仓库移到废�
 "Choose a model">*.*<"选择一个模型">*.*<补全-zh-CN>*.*<renderer.js
 "custom instructions">*.*<"自定义指令">*.*<补全-zh-CN>*.*<renderer.js
 "Always Use Copilot When Conflicts Are Detected">*.*<"检测到冲突时始终使用 Copilot">*.*<补全-zh-CN>*.*<renderer.js
-"Co-Authors">*.*<"共同作者">*.*<补全-zh-CN>*.*<renderer.js
+"Co-Authors ">*.*<"协同作者 ">*.*<补全-zh-CN>*.*<renderer.js
 "Bypass Commit Hooks">*.*<"绕过提交钩子">*.*<补全-zh-CN>*.*<renderer.js
 "Add Signed-off-by Trailer">*.*<"添加 Signed-off-by 尾注">*.*<补全-zh-CN>*.*<renderer.js
 "Allow Empty Commit">*.*<"允许空提交">*.*<补全-zh-CN>*.*<renderer.js
@@ -815,7 +841,7 @@ label:"Ignore File (Add to .gitignore)",>*.*<label:"忽略此文件（添加到.
 "your tool of choice, or close to resolve manually.">*.*<"您选择的工具，或关闭手动解决。">*.*<补全-zh-CN>*.*<renderer.js
 "Git Credential Manager">*.*<"Git 凭据管理器。">*.*<补全-zh-CN>*.*<renderer.js
 Sorry, I can't find any changed files matching the following filters: ${n}>*.*<抱歉，我找不到符合以下筛选条件的已更改文件：${n}>*.*<补全-zh-CN>*.*<renderer.js
-" changed files?">*.*<" 更改的文件？">*.*<补全-zh-CN>*.*<renderer.js
+" changed files?">*.*<" 个已更改文件？">*.*<补全-zh-CN>*.*<renderer.js
 " menu or">*.*<"菜单，或">*.*<补全-zh-CN>*.*<renderer.js
 "Adjust the filters to see all ">*.*<"调整筛选词以查看所有 ">*.*<补全-zh-CN>*.*<renderer.js
 ". You may want to change it due to different workflows, or because your integrations still require the historical default branch name of ">*.*<"。你可能希望根据不同的工作流更改它，或因为你的集成仍需要历史默认分支名 ">*.*<补全-zh-CN>*.*<renderer.js
@@ -904,7 +930,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "You can stash your changes now and recover them afterwards.">*.*<"你现在可以暂存更改,之后恢复。">*.*<补全-zh-CN>*.*<renderer.js
 "A totally awesome fix that fixes something - #123. Thanks!">*.*<"一个修复了某些问题的超棒修复 - #123。谢谢！">*.*<补全-zh-CN>*.*<renderer.js
 "This may indicate attackers are trying to steal your data.">*.*<"这可能表明攻击者正试图窃取你的数据。">*.*<补全-zh-CN>*.*<renderer.js
-"Its bearer token will also be removed from your keychain.">*.*<"其持有者令牌也将从你的钥匙串中移除。">*.*<补全-zh-CN>*.*<renderer.js
+"Its bearer token will also be removed from your keychain.">*.*<"其 bearer token 也将从你的钥匙串中移除。">*.*<补全-zh-CN>*.*<renderer.js
 "This commit has not been pushed to the remote repository">*.*<"此提交尚未推送到远端仓库">*.*<补全-zh-CN>*.*<renderer.js
 "You can only open pull requests against remote branches.">*.*<"你只能对远端分支打开拉取请求。">*.*<补全-zh-CN>*.*<renderer.js
 "removing the secret from your commit and commit history.">*.*<"从你的提交和提交历史中移除机密。">*.*<补全-zh-CN>*.*<renderer.js
@@ -993,6 +1019,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "Do you want to fork this repository?">*.*<"是否要复刻此仓库？">*.*<补全-zh-CN>*.*<main.js
 "Do you want to fork this repository?">*.*<"是否要复刻此仓库？">*.*<补全-zh-CN>*.*<renderer.js
 "Generate commit message with Copilot">*.*<"使用 Copilot 生成提交信息">*.*<补全-zh-CN>*.*<renderer.js
+"Generate Commit Message with Copilot">*.*<"使用 Copilot 生成提交信息">*.*<补全-zh-CN>*.*<renderer.js
 ". Files must be selected to generate a commit message.">*.*<"。必须先选择文件才能生成提交信息。">*.*<补全-zh-CN>*.*<renderer.js
 "Git requesting credentials to access">*.*<"Git 请求凭据以访问">*.*<补全-zh-CN>*.*<renderer.js
 "Verify the identity of the secret(s)">*.*<"验证机密的身份">*.*<补全-zh-CN>*.*<renderer.js
@@ -1049,7 +1076,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 " failed in your pull request">*.*<"在你的拉取请求中失败">*.*<补全-zh-CN>*.*<renderer.js
 "Error checking merge status.">*.*<"检查合并状态时出错。">*.*<补全-zh-CN>*.*<renderer.js
 "No Copilot models available.">*.*<"没有可用的 Copilot 模型。">*.*<补全-zh-CN>*.*<renderer.js
-"Please enter a bearer token.">*.*<"请输入持有者令牌。">*.*<补全-zh-CN>*.*<renderer.js
+"Please enter a bearer token.">*.*<"请输入 bearer token。">*.*<补全-zh-CN>*.*<renderer.js
 "Show check marks in the diff">*.*<"在差异中显示勾选标记">*.*<补全-zh-CN>*.*<renderer.js
 "Worktree will be created at ">*.*<"工作树将创建于">*.*<补全-zh-CN>*.*<renderer.js
 "Command Line Tool Installed">*.*<"命令行工具已安装">*.*<补全-zh-CN>*.*<renderer.js
@@ -1061,7 +1088,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "You're already signed in to">*.*<"你已登录到">*.*<补全-zh-CN>*.*<renderer.js
 " No newline at end of file">*.*<"文件末尾无换行符">*.*<补全-zh-CN>*.*<renderer.js
 " doesn't match your GitHub">*.*<"与你的 GitHub 不匹配">*.*<补全-zh-CN>*.*<renderer.js
-"Chat completions (default)">*.*<"聊天补全（默认）">*.*<补全-zh-CN>*.*<renderer.js
+"Chat completions (default)">*.*<"Chat completions（默认）">*.*<补全-zh-CN>*.*<renderer.js
 "Explore projects on GitHub">*.*<"在 GitHub 上探索项目">*.*<补全-zh-CN>*.*<renderer.js
 "Failed creating repository">*.*<"创建仓库失败">*.*<补全-zh-CN>*.*<renderer.js
 "Generic Git Authentication">*.*<"通用 Git 认证">*.*<补全-zh-CN>*.*<main.js
@@ -1078,8 +1105,8 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "Check run steps incoming!">*.*<"检查运行步骤即将显示！">*.*<补全-zh-CN>*.*<renderer.js
 "Checkout in New Worktree…">*.*<"在新工作树中检出…">*.*<补全-zh-CN>*.*<renderer.js
 "GitHub Privacy Statement.">*.*<"GitHub 隐私声明。">*.*<补全-zh-CN>*.*<renderer.js
-"Invalidated Account Token">*.*<"失效的账户令牌">*.*<补全-zh-CN>*.*<main.js
-"Invalidated Account Token">*.*<"失效的账户令牌">*.*<补全-zh-CN>*.*<renderer.js
+"Invalidated Account Token">*.*<"失效的 Account Token">*.*<补全-zh-CN>*.*<main.js
+"Invalidated Account Token">*.*<"失效的 Account Token">*.*<补全-zh-CN>*.*<renderer.js
 "Loading available models…">*.*<"正在加载可用模型…">*.*<补全-zh-CN>*.*<renderer.js
 "No open pull requests in ">*.*<"没有打开的拉取请求">*.*<补全-zh-CN>*.*<renderer.js
 "Re-Authorization Required">*.*<"需要重新授权">*.*<补全-zh-CN>*.*<main.js
@@ -1125,6 +1152,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "Checking mergeability…">*.*<"正在检查可合并性…">*.*<补全-zh-CN>*.*<renderer.js
 "Create Without Pushing">*.*<"不推送直接创建">*.*<补全-zh-CN>*.*<renderer.js
 "Delete Worktree Failed">*.*<"删除工作树失败">*.*<补全-zh-CN>*.*<renderer.js
+`Delete tag ${>*.*<`删除 Tag ${>*.*<补全-zh-CN>*.*<renderer.js
 "Deleting the worktree ">*.*<"正在删除工作树">*.*<补全-zh-CN>*.*<renderer.js
 "Keep this code private">*.*<"将此代码保持私有">*.*<补全-zh-CN>*.*<renderer.js
 "No Branches to Compare">*.*<"没有可比较的分支">*.*<补全-zh-CN>*.*<renderer.js
@@ -1146,7 +1174,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "Authentication Failed">*.*<"认证失败">*.*<补全-zh-CN>*.*<renderer.js
 "Bypass Push Detection">*.*<"绕过推送检测">*.*<补全-zh-CN>*.*<renderer.js
 "Checking out a commit">*.*<"检出提交">*.*<补全-zh-CN>*.*<renderer.js
-"Cherry Pick Conflicts">*.*<"挑拣冲突">*.*<补全-zh-CN>*.*<main.js
+"Cherry Pick Conflicts">*.*<"拣选冲突">*.*<补全-zh-CN>*.*<main.js
 "Copilot billing issue">*.*<"Copilot 计费问题">*.*<补全-zh-CN>*.*<renderer.js
 "Delete remote branch ">*.*<"删除远端分支">*.*<补全-zh-CN>*.*<renderer.js
 "It's a false positive">*.*<"是误报">*.*<补全-zh-CN>*.*<renderer.js
@@ -1301,7 +1329,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "Writing objects">*.*<"正在写入对象">*.*<补全-zh-CN>*.*<renderer.js
 "You're all set!">*.*<"一切就绪！">*.*<补全-zh-CN>*.*<renderer.js
 "repository name">*.*<"仓库名称">*.*<补全-zh-CN>*.*<renderer.js
-" files changed">*.*<"个文件已更改">*.*<补全-zh-CN>*.*<renderer.js
+" files changed">*.*<" 个文件已更改">*.*<补全-zh-CN>*.*<renderer.js
 " removed lines">*.*<"处删除行">*.*<补全-zh-CN>*.*<renderer.js
 "Alive Redeploy">*.*<"存活重新部署">*.*<补全-zh-CN>*.*<renderer.js
 "Authentication">*.*<"身份验证">*.*<补全-zh-CN>*.*<renderer.js
@@ -1313,7 +1341,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "Failed to push">*.*<"推送失败">*.*<补全-zh-CN>*.*<renderer.js
 "Filter Options">*.*<"筛选选项">*.*<补全-zh-CN>*.*<renderer.js
 "GitHub's Logos">*.*<"GitHub 徽标">*.*<补全-zh-CN>*.*<renderer.js
-"Lines changed:">*.*<"行数更改：">*.*<补全-zh-CN>*.*<renderer.js
+"Lines changed:">*.*<"更改的行数：">*.*<补全-zh-CN>*.*<renderer.js
 "Other Branches">*.*<"其他分支">*.*<补全-zh-CN>*.*<renderer.js
 "Prune branches">*.*<"清理分支">*.*<补全-zh-CN>*.*<main.js
 "Quota exceeded">*.*<"配额已超出">*.*<补全-zh-CN>*.*<renderer.js
@@ -1360,13 +1388,10 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 " added lines">*.*<"处新增行">*.*<补全-zh-CN>*.*<renderer.js
 "1 suggestion">*.*<"1 条建议">*.*<补全-zh-CN>*.*<renderer.js
 "Add Worktree">*.*<"添加工作树">*.*<补全-zh-CN>*.*<renderer.js
-"Bearer token">*.*<"持有者令牌">*.*<补全-zh-CN>*.*<renderer.js
+"Bearer token">*.*<"Bearer token">*.*<补全-zh-CN>*.*<renderer.js
 "Checking out">*.*<"正在检出">*.*<补全-zh-CN>*.*<renderer.js
-`Included in commit (${i})`>*.*<`包含在提交中 (${i})`>*.*<补全-zh-CN>*.*<renderer.js
-`Excluded from commit (${s})`>*.*<`从提交中排除 (${s})`>*.*<补全-zh-CN>*.*<renderer.js
-`New files (${t})`>*.*<`新文件 (${t})`>*.*<补全-zh-CN>*.*<renderer.js
-`Modified files (${n})`>*.*<`已修改文件 (${n})`>*.*<补全-zh-CN>*.*<renderer.js
-`Deleted files (${r})`>*.*<`已删除文件 (${r})`>*.*<补全-zh-CN>*.*<renderer.js
+`New files (${>*.*<`新文件 (${>*.*<补全-zh-CN>*.*<renderer.js
+`Modified files (${>*.*<`已修改文件 (${>*.*<补全-zh-CN>*.*<renderer.js
 "and get going on your next project?">*.*<"并开始你的下一个项目？">*.*<补全-zh-CN>*.*<renderer.js
 "create a new branch">*.*<"创建新分支">*.*<补全-zh-CN>*.*<renderer.js
 "create a pull request">*.*<"创建拉取请求">*.*<补全-zh-CN>*.*<renderer.js
@@ -1427,7 +1452,7 @@ Sorry, I can't find any changed files matching the following filters: ${n}>*.*<�
 "Show popup">*.*<"显示弹出窗口">*.*<补全-zh-CN>*.*<main.js
 "Unable to ">*.*<"无法">*.*<补全-zh-CN>*.*<renderer.js
 "local only">*.*<"仅本地">*.*<补全-zh-CN>*.*<renderer.js
-" changed ">*.*<"已更改">*.*<补全-zh-CN>*.*<renderer.js
+" changed ">*.*<" 个已更改">*.*<补全-zh-CN>*.*<renderer.js
 "Add Model">*.*<"添加模型">*.*<补全-zh-CN>*.*<renderer.js
 "Arguments">*.*<"参数">*.*<补全-zh-CN>*.*<renderer.js
 "Clone URL">*.*<"克隆 URL">*.*<补全-zh-CN>*.*<renderer.js
